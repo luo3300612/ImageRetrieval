@@ -6,3 +6,7 @@ Image retrieval web application
   * image matching
 * tools:
   * feature extractor
+
+## log
+### 20230123
+本地小批量resnet特征提取Done
