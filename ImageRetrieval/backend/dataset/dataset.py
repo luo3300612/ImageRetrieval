@@ -3,6 +3,8 @@ from torch.utils.data import Dataset
 import torchvision.transforms as transforms
 from .default_settings import imagenet_preprocess
 import cv2
+import numpy as np
+from PIL import Image
 
 
 class ImageRetrievalDataset(Dataset):  # 可以抽象成BaseDataset，但没必要
